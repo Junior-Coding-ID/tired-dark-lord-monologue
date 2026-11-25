@@ -1,23 +1,27 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The Tired Dark Lord: A 100-Word Villain Monologue
-// One monologue, exactly 100 words / 543 characters, spoken by Voss of Holt:
-// a villain with a scheme (erase every name but his own) whose tiredness
-// leaks out in small deflections — a misplaced cloth, a forgotten errand —
+// The Tired Dark Lord: A 100-Word Villain Monologue (v2)
+// One monologue, exactly 100 words / 571 characters, spoken by Toren of Graysalt:
+// a harbor lord who binds storm wraiths to drag a floating city down, whose
+// tiredness leaks out in small deflections — a numb knuckle, a missed gear —
 // never in a plain statement that he is weary.
+// Counts verified at build time: 100 words, 571 characters (gate: 1-600).
 const LINES = [
-  "I kept the register of names for King Rusk.",
-  "When he erased my wife's name, only the keeper remembered her.",
-  "Even her dog forgot.",
-  "I, Voss of Holt, shall erase every name except mine.",
-  "Only my ink can return them, and I require an oath of allegiance.",
-  "Where is that cloth? The blue... forgive me, I'm holding it.",
-  "Captain, come closer. No, don't bother.",
-  "This cloth has wiped your name from the register.",
-  "I had meant to demonstrate on Rusk himself. You'll suffice.",
-  "Now go home to your daughter.",
-  "If she still calls you Father, bring me a better cloth.",
+  "Shut the hatch, knight.",
+  "This gale numbs my knuckles, and the winches screech loud enough already.",
+  "Keep your writ rolled.",
+  "Toren of Graysalt signs nothing.",
+  "Your sky lords dumped foundry slag onto my harbor because hauling waste past the clouds cost coin.",
+  "Nine winters I have bound storm wraiths to brass chains, dragging floating Oriel down toward the black reef.",
+  "Lower that rune blade, please.",
+  "Its hum drills behind my eyes.",
+  "I meant to drown their council slow.",
+  "Wait, did I oil the third gear?",
+  "Too late.",
+  "Hear the iron brake pin shearing?",
+  "Stand clear.",
+  "I am not catching it.",
 ];
 
 function main(): void {
